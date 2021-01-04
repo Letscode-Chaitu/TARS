@@ -1,6 +1,5 @@
-#! bin/bash
 
-while read data
+while read var
 do
-	echo "$data"
+	echo "$var"
 done < "${1:-/dev/stdin}"
